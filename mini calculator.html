@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+
+    <script>
+
+        document.write('Hello world! <br>');
+        document.write('hello world');
+        document.write('<br>');
+        document.write('hello world');
+        document.write('<br>');
+
+        //calculator
+
+        var x= 16;
+        var y = 12;
+
+        document.write('sum=', x+y);
+        document.write('<br>');
+
+        document.write('minus=',x-y);
+        document.write('<br>');
+
+        document.write('mul=',x*y);
+        document.write('<br>');
+
+        document.write('div=',x/y);
+        document.write('<br>');
+        
+    </script>
+
+<!----calculator---->
+
+    <table>
+        <tr>
+            <td> First Number: </td>
+            <td> <input type="number" id="fn"></td>
+
+        </tr>
+        <tr>
+            <td> Second Number: </td>
+            <td> <input type="number" id="sn"></td>
+
+        </tr>
+
+        <tr>
+        <td> Result: </td>
+        <td> <input type="text"id="res"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="button" id="plus" value="+">
+            <input type="button" id="minus" value="-">
+            <input type="button" id="mul" value="*">
+            <input type="button" id="div" value="/">
+        </td>
+    </tr>
+       
+    </table>
+
+    <h1> Time: </h1>
+    <h1 id= "time"> </h1>
+
+
+    
+    <script src="calculator.js">
+
+    </script>
+</body>
+</html>
